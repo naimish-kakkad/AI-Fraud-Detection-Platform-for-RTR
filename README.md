@@ -33,7 +33,7 @@ A comprehensive real-time payment monitoring dashboard simulating Canada's Real-
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rtr-payment-dashboard.git
+git clone https://github.com/naimish-kakkad/AI-ML-RTR-Fraud-Monitoring-Platform.git
 cd rtr-payment-dashboard
 
 # Install dependencies
