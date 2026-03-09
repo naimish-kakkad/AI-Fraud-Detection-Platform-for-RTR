@@ -1,35 +1,41 @@
-# 🇨🇦 AI-ML RTR Real-Time Payment Rail Monitoring Dashboard
+# 🇨🇦 AI-ML-RTR-Fraud-Monitoring-Platform
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Dash](https://img.shields.io/badge/Dash-2.14.0-green)](https://dash.plotly.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Payments Canada](https://img.shields.io/badge/RTR-v1.4-red)](https://www.payments.ca/)
+[![AI/ML](https://img.shields.io/badge/AI-ML-powered-orange)](https://scikit-learn.org/)
+[![Synthetic Data](https://img.shields.io/badge/Data-Synthetic%20%F0%9F%93%8A-purple)](https://github.com/)
 
-A comprehensive real-time payment monitoring dashboard simulating Canada's Real-Time Rail (RTR) payment system with AI/ML-powered risk detection, based on Payments Canada ISO 20022 specifications v1.4.
+> ⚠️ **IMPORTANT: This dashboard uses 100% SYNTHETIC/FAKE data for educational purposes only. Not for production use.**
+
+A comprehensive real-time payment monitoring dashboard simulating Canada's Real-Time Rail (RTR) payment system with **AI/ML-powered risk detection**, based on Payments Canada ISO 20022 specifications v1.4. **All transactions, bank names, and payment data shown are completely fake and randomly generated.**
+
+![Dashboard Overview](docs/images/dashboard_overview.png)
 
 ## ✨ Features
 
-### 🏦 Real-Time Payment Simulation
-- **ISO 20022-compliant** message generation
-- **10+ Canadian banks** with actual headquarters locations
-- **Realistic payment flows** with liquidity management
-- **Configurable transaction patterns** (normal, high-value, structuring)
+### 🏦 Real-Time Payment Simulation (with Synthetic Data)
+- **ISO 20022-compliant** fake message generation (pacs.008, pacs.002)
+- **10+ simulated Canadian banks** with actual headquarters locations (Toronto, Montreal, Halifax, Vancouver, Ottawa, Levis)
+- **Fake payment flows** with simulated liquidity management between institutions
+- **Configurable fake transaction patterns** including normal payments, high-value wires, and structuring attempts
 
-### 🤖 AI/ML Risk Detection
-- **Isolation Forest** anomaly detection
-- **Multi-factor risk scoring** (amount, bank, patterns)
-- **Real-time ML model training** on streaming data
-- **Risk visualization** with color-coded transactions
+### 🤖 AI/ML Risk Detection (on Fake Data)
+- **Isolation Forest** unsupervised learning trained on synthetic data
+- **Multi-factor risk scoring** on simulated transactions
+- **Real-time ML model training** on fake streaming data
+- **Adaptive learning** that improves on made-up patterns
+- **Automated flagging** of suspicious fake transactions
 
 ### 🗺️ Interactive Visualizations
-- **Geographic map** of Canada with bank locations
-- **Live transaction timeline** with risk indicators
-- **Bank liquidity monitoring** with color gradients
-- **Network graph** showing payment flows
+- **Geographic map** of Canada with real bank headquarters (but fake transactions)
+- **Live fake transaction timeline** with color-coded risk indicators
+- **Simulated bank liquidity monitoring** with dynamic color gradients
+- **Network graph** showing fake payment flows between institutions
+- **Risk heat maps** highlighting made-up high-activity corridors
 
-## 🚀 Quick Start
-
-### Installation
+## ⚡ Quick Start
 
 ```bash
 # Clone the repository
