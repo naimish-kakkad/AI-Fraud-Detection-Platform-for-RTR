@@ -83,7 +83,9 @@ LOW RISK: Score ≤ 20
 ML HIGH RISK: Isolation Forest anomaly
 
 🙏 Acknowledgements
-Payments Canada for RTR ISO 20022 specifications
+Payments Canada for RTR ISO 20022 specifications v1.4
 Plotly/Dash for the interactive dashboard framework
-scikit-learn for Isolation Forest implementation
+scikit-learn for Isolation Forest ML implementation
+Faker for realistic payment data generation
+Canadian Banks for headquarters location data
 
