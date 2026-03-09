@@ -37,28 +37,28 @@ A comprehensive real-time payment monitoring dashboard simulating Canada's Real-
 - **Network graph** showing fake payment flows between institutions
 - **Risk heat maps** highlighting made-up high-activity corridors
 
-Usage
+### Usage
 Open your browser to http://localhost:8050
 Click "Start" to begin the payment stream
 Watch real-time transactions flow across Canada
 Use filters to analyze specific transactions
 Download data as CSV for further analysis
 
-📊 Dashboard Controls
+### 📊 Dashboard Controls
 Control	Function
 ▶️ Start	Begins generating simulated payments
 ⏸️ Stop	Pauses payment generation
 🔄 Reset	Clears all data and resets liquidity
 📥 Download	Exports transactions to CSV
 🔍 Filtering Options
-Filter	Options
 
+### Filter	Options
 Bank	All banks or specific institution
 Status	Settled, Finality, Accepted, Rejected
 Risk Level	ML HIGH, CRITICAL, HIGH, MEDIUM, LOW
 Amount Range	Min/Max values in CAD
 
-🤖 AI/ML Risk Scoring
+### 🤖 AI/ML Risk Scoring
 Risk Factors
 Factor	Score	Description
 Extreme High Amount	70	> $10,000 (10x normal)
@@ -69,19 +69,12 @@ High Amount	20	> $1,000
 Cross-border	15	International payment
 NeoBank Risk	10	Newer institution
 
-Risk Levels
+### Risk Levels
 CRITICAL RISK: Score > 70
 HIGH RISK: Score > 50
 MEDIUM RISK: Score > 20
 LOW RISK: Score ≤ 20
 ML HIGH RISK: Isolation Forest anomaly
-
-🙏 Acknowledgements
-Payments Canada for RTR ISO 20022 specifications v1.4
-Plotly/Dash for the interactive dashboard framework
-scikit-learn for Isolation Forest ML implementation
-Faker for realistic payment data generation
-Canadian Banks for headquarters location data
 
 ## ⚡ Quick Start
 
