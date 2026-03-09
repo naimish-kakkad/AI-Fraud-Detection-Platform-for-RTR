@@ -37,20 +37,6 @@ A comprehensive real-time payment monitoring dashboard simulating Canada's Real-
 - **Network graph** showing fake payment flows between institutions
 - **Risk heat maps** highlighting made-up high-activity corridors
 
-## ⚡ Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/naimish-kakkad/AI-ML-RTR-Fraud-Monitoring-Platform.git
-cd rtr-payment-dashboard
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python app.py
-
-
 Usage
 Open your browser to http://localhost:8050
 Click "Start" to begin the payment stream
@@ -96,4 +82,17 @@ Plotly/Dash for the interactive dashboard framework
 scikit-learn for Isolation Forest ML implementation
 Faker for realistic payment data generation
 Canadian Banks for headquarters location data
+
+## ⚡ Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/naimish-kakkad/AI-ML-RTR-Fraud-Monitoring-Platform.git
+cd rtr-payment-dashboard
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python app.py
 
